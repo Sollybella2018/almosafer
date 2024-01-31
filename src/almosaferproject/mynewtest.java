@@ -2,7 +2,7 @@ package almosaferproject;
 
 import org.testng.annotations.BeforeTest;
 
-public class mytest extends parameters {
+public class mynewtest extends parameters {
 	
 	
 	@BeforeTest
@@ -10,7 +10,7 @@ public class mytest extends parameters {
 	public void MySetUp () {
 	
 	driver.get(URL);
-	driver.win
+driver.manage().window().maximize();
 	
 	}
 	
